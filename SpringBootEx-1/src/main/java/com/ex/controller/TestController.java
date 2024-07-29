@@ -10,6 +10,7 @@ public class TestController {
 	@GetMapping("/names")
 	public String getNames()
 	{
+		System.out.println("comming....");
 		return "Hello";
 	}
 	
